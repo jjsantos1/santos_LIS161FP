@@ -1,1 +1,2 @@
-# santos_LIS161FP
+# LIS 161 Final Project
+# Jonathan Santos
