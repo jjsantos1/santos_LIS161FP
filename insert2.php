@@ -1,6 +1,6 @@
 <html>
 <?php
-require("homepage.html");
+require("homepage.php");
 ?>
 <form method="POST" action="../insert.php">
 Name<input type="text" name="name">

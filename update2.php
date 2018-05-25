@@ -1,6 +1,6 @@
 <html>
 <?php
-require("homepage.html");
+require("homepage.php");
 ?>
 <form method="POST" action="../update.php">
 Enter updated information of the subject:<br>

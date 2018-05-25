@@ -1,6 +1,6 @@
 <?php
-include_once("connect.php");
-require("homepage.html");
+include_once("connect.php");		
+require("homepage.php");
 
 $name = $_POST['name'];
 

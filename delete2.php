@@ -1,6 +1,6 @@
 <html>
 <?php
-require("homepage.html");
+require("homepage.php");
 ?>
 <form method="POST" action="../delete.php">
 Enter subject to delete: <input type="text" name="name">

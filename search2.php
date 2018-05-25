@@ -1,6 +1,6 @@
 <html>
 <?php
-require("homepage.html");
+require("homepage.php");
 ?>
 <form method="POST" action="../search.php">
 Enter subject to search: <input type="text" name="name">
