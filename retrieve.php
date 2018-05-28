@@ -1,8 +1,11 @@
 <?php
+session_start();
+?>
+<?php
 include_once("connect.php");
 require("homepage.php");
 
-//Insert record
+//Retrieve record
 $query=("SELECT * FROM subject");
 
 $result=mysqli_query($link,$query);

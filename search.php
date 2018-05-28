@@ -1,4 +1,7 @@
 <?php
+session_start();
+?>
+<?php
 include_once("connect.php");
 require("homepage.php");
 

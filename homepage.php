@@ -1,4 +1,19 @@
-<html
+<?php
+    if(isset($_SESSION['username'])) {            
+        include("connect.php");                    
+	?>                
+		Welcome 
+		<?php
+		echo $_SESSION['username'];
+		?> ! 
+	<br/>
+	<?php    
+    } else {
+        echo "You must be logged in to view this page.<br/><br/>";
+        echo "<a href='login.php'>Login</a>";
+    }
+    ?>
+<html>
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
