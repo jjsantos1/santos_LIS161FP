@@ -1,6 +1,6 @@
 @font-face {
     font-family: "printbold";
-    src: url("images/printbold.ttf");
+    src: url("printbold.ttf");
 }
 
 h1 {
@@ -78,7 +78,7 @@ body {
 	margin-left: 10%;
 	margin-right: 10%;
 	font-family: printbold;
-	background-image: url("images/green_gobbler.png");
+	background-image: url("green_gobbler.png");
 }
 
 ul {
